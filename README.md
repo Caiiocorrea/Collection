@@ -14,13 +14,13 @@ Os produtos devem conter as propriedades id, caminho para imagem, nome, descriç
 ## Obrigatório
 Necessário ter mongoDB instalado para criação do documento automaticamente.
 
-## Installation
+## Instalação
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Executando o app
 
 ```bash
 # development
@@ -33,6 +33,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## License
+## Licença
 
 Nest is [MIT licensed](LICENSE).
