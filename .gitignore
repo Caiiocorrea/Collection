@@ -394,6 +394,6 @@ Temporary Items
 
 =======
 # Local
-.env
-/**/.env
+# .env
+# /**/.env
 dist
