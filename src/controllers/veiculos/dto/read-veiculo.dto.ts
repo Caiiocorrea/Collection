@@ -1,22 +1,28 @@
 import { IsNotEmpty } from 'class-validator';
 import { ApiProperty } from "@nestjs/swagger";
 
-export class ReadProdutoDto {
+export class ReadVeiculoDto {
     @ApiProperty()
-    id: string
+    _id: string
 
     @ApiProperty()
-    nome: string
+    placa: string
 
     @ApiProperty()
-    descricao: string
+    chassi: string
+
+    @ApiProperty()
+    renavam: number
+
+    @ApiProperty()
+    modelo: number
 
     @ApiProperty()
     marca: string
 
     @ApiProperty()
-    minqtd: number
+    ano: number
 
     @ApiProperty()
-    imagem: []
+    active: boolean
 }
